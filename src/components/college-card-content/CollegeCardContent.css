@@ -1,0 +1,134 @@
+.about-college {
+    height: 100%;
+    width: 100%;
+}
+
+.college-image {
+    height: 100%;
+    position: relative;
+}
+
+.college-image:after{
+    content:'';
+    background-image: url('../../assets/images/college_02.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0.5;
+}
+
+.college-image-area {
+    background-color: #000000;
+    height: 220px;
+}
+
+.on-img-content {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+.college-info-area {
+    width: 100%;
+    height: calc(100% - 220px);
+    position: relative;
+}
+
+.clg-area {
+    max-width: 60%;
+    padding: 10px 5px;
+    color: #444444;
+    box-sizing: border-box;
+    float: left;
+    line-height: 30px;
+}
+
+.clg-fees-benefits {
+    height: 100%;
+    width: 40%;
+    text-align: right;
+    max-width: 40%;
+    padding: 10px 5px;
+    color: #444444;
+    box-sizing: border-box;
+    float: right;
+}
+
+.rating-block {
+    width: 75px;
+    height: 53px;
+    background-color: #f5a626;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 13px;
+    padding: 5px;
+    box-sizing: border-box;
+    float: right;
+    font-size: 13.5px;
+}
+
+.tags-block {
+    position: absolute;
+    bottom: 5px;
+    max-width: calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+.clg-tags {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    color: #444444;
+    background-color: #ffffff;
+    font-size: 13.5px;
+    margin: 0 5px 5px 0;
+}
+
+.clg-rank {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    max-width: calc(50% - 10px);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.clg-title {
+    font-weight: bold;
+    font-size: 18.5px;
+    line-height: 30px;
+}
+
+.offer-block {
+    position: relative;
+    left: -5px;
+    top: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    border: 1px solid #ccf5e7;
+    border-radius: 0 25px 25px 0;
+    background-color: #ccf5e7;
+    display: inline-block;
+}
+
+.clg-amenities {
+    color: #37b396;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.disc-fee {
+    font-weight: bold;
+    font-size: 28.5px;
+    color: #dd1c26;
+}

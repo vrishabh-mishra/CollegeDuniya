@@ -1,3 +1,11 @@
+Project: Implemented infinite scrolling on College Information
+
+Steps To-do:
+1. Take clone of the project
+2. Install all the dependencies by running the command: npm install
+3. Run the app with the command: npm start
+----------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,0 +1,31 @@
+.college-card {
+    width: 100%;
+}
+
+.college-card-content {
+    width: calc(50% - 30px);
+    min-width: 345px;
+    min-height: 350px;
+    height: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #adadad;
+    border-radius: 3px;
+    box-shadow: 1px 1px #adadad;
+}
+
+@media(max-width: 767px) {
+    .college-card-content {
+        width: calc(100% - 40px);
+        min-width: 300px;
+        margin: 20px !important;
+    }
+}
+
+.college-card-content:first-of-type{
+    margin: 20px;
+}
+
+.college-card-content:last-of-type{
+    margin: 20px 20px 20px 0;
+}
